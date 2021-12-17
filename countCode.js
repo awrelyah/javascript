@@ -9,7 +9,7 @@ const data = ["FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0", "iHwbq2giBx","X5Ebl6sjLf",
 
     function countCode(letter){
         const startsWithLetter = data.filter((dataPiece) => dataPiece.startsWith(letter));
-        console.log(startsWithLetter.length);
+        return startsWithLetter.length;
     }
 
     countCode("i");
