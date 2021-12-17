@@ -1,13 +1,16 @@
+let temperature = prompt("Sisesta katla temperatuur (0-60kraadi)");
+
 function checkTemp(temperature){
-    if (temperature > 0 && temperature <= 20){
-        console.log(-1);
+    if (temperature >= 0 && temperature <= 20){
+        alert(-1);
     }
     else if (temperature > 20 && temperature <= 40){
-        console.log(0);
+        alert(0);
     }
     else if (temperature > 40 && temperature <= 60){
-        console.log(1);
+        alert(1);
     }
 }
 
-checkTemp(40);
+
+checkTemp(temperature);
